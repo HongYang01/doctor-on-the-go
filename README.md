@@ -1,9 +1,16 @@
 # Doctor On The Go
 
-The aim of the project is to provide:
+## 🎗️ Certification of Recognition
 
-- Essential healthcare services to remote and rural communities in Malaysia.
-- Implement a "Doctor-On-the-Go!" system.
+- **Certification Name :** Best Group Project UNIMAS FCSIT TME2413/TMN2223/TMS2833 Object Oriented Software Development - Semester 1, 2022/2023
+- **Issued By :** Dr. Norfadzlan bin Yusup (Course Coordinator/Lecturer)
+- **Issued Date :** October 2023
+- [Certification Image]()
+
+## Project Overview
+
+**Aim**: Provide essential healthcare services to remote and rural communities in Malaysia through the implementation of a "Doctor-On-the-Go!" system. Our objectives include:
+
 - Address issues like weather-related flight cancellations and limited healthcare access.
 - Promote early disease detection and health awareness.
 - Reduce unnecessary trips to local clinics or hospitals.
@@ -27,3 +34,19 @@ It is proposed that a Doctor-On-the-Go! system offer villagers with required hea
 
 1. using Comma Separated Value (CSV) format
 2. Data format is located at `/data/_fileformat.txt`
+
+## 📜 Disclaimer and Legal Notice
+
+**Ownership and Usage Notice**: This project case study is exclusively intended for educational purposes and is provided by UNIMAS FCSIT TME2413/TMN2223/TMS2833 Object Oriented Software Development - Semester 1, 2022/2023 Course. While this project is freely accessible for educational and non-commercial use, we kindly request that users adhere to the following conditions:
+
+1. **Attribution**: If you choose to use or adapt this project for your work or any other purpose, you must provide appropriate credit to the original authors. Please include a visible and clear attribution, acknowledging the source as "Doctor On The Go" - by:
+
+   - 79880 LIM HONG YANG
+   - 79065 CHIN TECK YUNG
+   - 78855 ANNASTASHA CHANG SEE MAY
+   - 79260 EE CHEE FAT
+   - 79027 CHAI CHENG KANG
+
+2. **Permission for School/University Projects**: The use of this project for school or university projects is not permitted without prior written consent from the project authors. If you intend to incorporate this project into an academic assignment, research, or any educational work, please contact us to request permission.
+
+It is important to acknowledge that no tangible costs will be incurred for using this project. We wish to underscore that any prospective loss or damage to assets cannot be imputed to our liability. We strongly advise the exercise of caution and the assumption of full responsibility when making the choice to download and install this software.
