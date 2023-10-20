@@ -1,0 +1,37 @@
+>>> --- Strong Entity --- <<<
+
+userData.txt				: verification,role,IC,name,age,gender,race,street,city,phone,email,password
+
+hospital.txt				: hos_id,hos_name,hos_street,hos_city,hos_phone
+
+medical_staff_hospital.txt	: ms_id,ms_type,hos_id
+
+transData.txt				: trans_id,hos_ID,trans_type
+
+patient_health_condition.txt	: userID,hc1,hc2,hc3,...,n
+
+patient_health_status.txt	: hs_patient_id,hs_day,hs_month,hs_year,hs_blood_pressure,hs_pulse,hs_temperature
+
+
+
+>>> --- Weak Entity --- <<<
+
+appointment.txt			: app_ID,patient_IC,app_method,day,month,year,time,priority,app_status,ms_ID
+ms_ID = 0 = default when add new appointment 
+
+appointment_symptom.txt		: app_ID,s1,s2,s3,...,n
+
+appointment_emergency.txt	: app_id,fac_id
+
+appointment_treatment_medication.txt : app_id,treatment_detail,medication_detail
+
+appointment_screening.txt	: app_id,hos_id
+
+
+
+visitation.txt:
+(ONE-TIME) app_id,v_type,v_day,v_month,v_year,v_time,v_street,v_city,v_trans_id
+(ROUTINE) v_id,v_type,v_day,v_month,v_year,v_time,v_street,v_city,v_trans_id
+
+visitation_medical_staff.txt	: v_id,docID,msID_1,msID_2,msID_3,...,n
+

@@ -1,0 +1,67 @@
+# Project: DoctorOnTheGo
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = build/object/main.o build/object/user.o build/object/admin.o build/object/display.o build/object/patient.o build/object/appointment.o build/object/doctor.o build/object/transportation.o build/object/hospital.o build/object/medical_staff.o build/object/visitation.o build/object/nurse.o build/object/medical_assistant.o build/object/specialist.o
+LINKOBJ  = build/object/main.o build/object/user.o build/object/admin.o build/object/display.o build/object/patient.o build/object/appointment.o build/object/doctor.o build/object/transportation.o build/object/hospital.o build/object/medical_staff.o build/object/visitation.o build/object/nurse.o build/object/medical_assistant.o build/object/specialist.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -std=c++11
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = build/DoctorOnTheGo.exe
+CXXFLAGS = $(CXXINCS) -std=gnu++11 -g
+CFLAGS   = $(INCS) -std=gnu++11 -g
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+build/object/main.o: main.cpp
+	$(CPP) -c main.cpp -o build/object/main.o $(CXXFLAGS)
+
+build/object/user.o: user.cpp
+	$(CPP) -c user.cpp -o build/object/user.o $(CXXFLAGS)
+
+build/object/admin.o: admin.cpp
+	$(CPP) -c admin.cpp -o build/object/admin.o $(CXXFLAGS)
+
+build/object/display.o: display.cpp
+	$(CPP) -c display.cpp -o build/object/display.o $(CXXFLAGS)
+
+build/object/patient.o: patient.cpp
+	$(CPP) -c patient.cpp -o build/object/patient.o $(CXXFLAGS)
+
+build/object/appointment.o: appointment.cpp
+	$(CPP) -c appointment.cpp -o build/object/appointment.o $(CXXFLAGS)
+
+build/object/doctor.o: doctor.cpp
+	$(CPP) -c doctor.cpp -o build/object/doctor.o $(CXXFLAGS)
+
+build/object/transportation.o: transportation.cpp
+	$(CPP) -c transportation.cpp -o build/object/transportation.o $(CXXFLAGS)
+
+build/object/hospital.o: hospital.cpp
+	$(CPP) -c hospital.cpp -o build/object/hospital.o $(CXXFLAGS)
+
+build/object/medical_staff.o: medical_staff.cpp
+	$(CPP) -c medical_staff.cpp -o build/object/medical_staff.o $(CXXFLAGS)
+
+build/object/visitation.o: visitation.cpp
+	$(CPP) -c visitation.cpp -o build/object/visitation.o $(CXXFLAGS)
+
+build/object/nurse.o: nurse.cpp
+	$(CPP) -c nurse.cpp -o build/object/nurse.o $(CXXFLAGS)
+
+build/object/medical_assistant.o: medical_assistant.cpp
+	$(CPP) -c medical_assistant.cpp -o build/object/medical_assistant.o $(CXXFLAGS)
+
+build/object/specialist.o: specialist.cpp
+	$(CPP) -c specialist.cpp -o build/object/specialist.o $(CXXFLAGS)

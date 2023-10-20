@@ -1,0 +1,18 @@
+1,1,1111,Alex Lee,45,1,1,Jalan Happy,1,0123456701,alex@gmail.com,1111
+1,2,010101130112,Benedict,36,1,5,Jalan Hapki,1,0123456702,benedict@gmail.com,0000
+1,3,010101130113,George,44,1,3,Jalan Awi,3,0123456703,george@gmail.com,0000
+1,4,010101130114,Siti,33,2,2,Jalan Wang,4,0123456705,siti@gmail.com,0000
+1,5,010101130115,Aiman,35,1,2,Jalan Pisang,5,0123456706,aiman@gmail.com,0000
+1,6,010101130116,Miley,56,2,6,Jalan Satok,6,0123456707,sarah@gmail.com,0000
+1,4,010101130117,Salley,33,2,3,Jalan Tun Jiji,4,0198573627,salley@gmail.com,0000
+1,2,010101130120,Santiago Banks,22,1,1,Jalan Ewe Hai,1,01339429162,Santiago@gmail.com,0000
+1,2,010101130121,Jermaine Porter,34,2,2,Jalan Khoo Hun,1,01322872526,Jermaine@gmail.com,0000
+1,3,010101130122,Eve Myers,55,1,3,Jalan Ban Hock,1,01356370258,Eve@gmail.com,0000
+1,3,010101130123,Frederic Marshall,54,1,4,Jalan Tiang Swee,2,01379838990,Frederic@gmail.com,0000
+1,4,010101130124,Ayrton Sutherland,32,1,5,Jalan Hup Leong,4,01377272526,Ayrton@gmail.com,0000
+1,4,010101130125,Veronica Vaughan,22,2,6,Jalan Datuk Wee,5,01362034578,Veronica@gmail.com,0000
+1,4,010101130126,Linda Hanson,34,2,1,Jalan Chong,6,01392051289,Linda@gmail.com,0000
+1,5,010101130127,Lloyd Ali,55,1,2,Jalan Rodway,2,01391021641,Lloyd@gmail.com,0000
+1,5,010101130128,Freya Sutton,54,2,3,Jalan Deshon,4,01322824163,Freya@gmail.com,0000
+1,6,010101130129,Sachin Singleton,32,1,4,Jalan Abell,5,01389438835,Sachin@gmail.com,0000
+1,6,010101130130,Kenneth Miller,22,1,5,Jalan Gambier,6,01341427624,Kenneth@gmail.com,0000

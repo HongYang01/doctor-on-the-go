@@ -1,0 +1,18 @@
+001,Kuching Hospital 1,Jalan Merah,1,082900901
+002,Kuching Hospital 2,Jalan Kuning,1,082900902
+003,Kuching Hospital 3,Jalan Hijau,1,082900903
+004,Samarahan Hospital 1,Jalan Apple,2,082900904
+005,Samarahan Hospital 2,Jalan Banana,2,082900905
+006,Samarahan Hospital 3,Jalan Orange,2,082900906
+007,Sri Aman Hospital 1,Jalan Simmer,3,082900907
+008,Sri Aman Hospital 2,Jalan Quil,3,082900908
+009,Sri Aman Hospital 3,Jalan Lopi,3,082900909
+010,Kapit Hospital 1,Jalan Timur,4,082900910
+011,Kapit Hospital 2,Jalan Laut,4,082900911
+012,Kapit Hospital 3,Jalan Kenang,4,082900912
+013,Bintulu Hospital 1,Jalan Je,5,082900913
+014,Bintulu Hospital 2,Jalan Han,5,082900914v
+015,Bintulu Hospital 3,Jalan Kui,5,082900915
+016,Miri Hospital 1,Jalan Lee,6,082900916
+017,Miri Hospital 2,Jalan Koi,6,082900917
+018,Miri Hospital 3,Jalan Hup,6,082900918
